@@ -1,5 +1,5 @@
 .cart {
-  background: #000;
+  background: var(--background-alt);
   display: none;
   padding: 32px;
   position: fixed;
@@ -9,12 +9,12 @@
 }
 
 .cart img {
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
   width: 100%;
 }
 
 .cart li {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid var(--border);
   padding-bottom: 16px;
 }
 
@@ -31,13 +31,14 @@
 
 .cart-button {
   align-items: center;
-  background: #09f;
+  background: var(--highlight);
   border-radius: 9999px;
+  color: var(--text-invert);
   cursor: pointer;
   display: flex;
   height: 32px;
   justify-content: center;
-  padding: 4px;
+  padding: 6px;
   position: absolute;
   right: 20px;
   top: 20px;

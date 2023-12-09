@@ -1,6 +1,6 @@
 import { useCart } from '../hooks/useCart'
 import { AddToCartIcon, RemoveFromCartIcon } from './Icons'
-import './Products.css'
+import '../styles/Products.css'
 
 export function Products({ products }) {
   const { cart, addToCart, removeFromCart } = useCart()
@@ -31,9 +31,9 @@ export function Products({ products }) {
                       ? removeFromCart(product)
                       : addToCart(product)
                   }
-                  style={{ backgroundColor: isProductInCart ? 'red' : '#09f' }}
+                  className={ isProductInCart ? 'secondary' : 'primary' }
                 >
-                  {isProductInCart ? <RemoveFromCartIcon /> : <AddToCartIcon />}
+                  { isProductInCart ? <RemoveFromCartIcon /> : <AddToCartIcon /> }
                 </button>
               </div>
             </li>

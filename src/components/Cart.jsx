@@ -1,7 +1,7 @@
 import { useId } from 'react'
 import { useCart } from '../hooks/useCart'
 import { CartIcon, ClearCartIcon } from './Icons'
-import './Cart.css'
+import '../styles/Cart.css'
 
 function CartItem({ thumbnail, price, title, quantity, addToCart }) {
   return (
@@ -50,7 +50,7 @@ export function Cart() {
           ))}
         </ul>
 
-        <button onClick={clearCart}>
+        <button className='secondary' onClick={clearCart}>
           <ClearCartIcon />
         </button>
       </aside>
