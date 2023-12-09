@@ -5,7 +5,7 @@
         "title":"Bandeja de Campo",
         "description":"",
         "price":4000,
-        "stock":0,
+        "stock":false,
         "category":"Bandejas",
         "thumbnail": "images/BandejaCampo_1.jpg",
         "images":[
@@ -19,7 +19,7 @@
         "title":"Bandeja Multicolor",
         "description":"",
         "price":4000,
-        "stock":2,
+        "stock":true,
         "category":"Bandejas",
         "thumbnail": "images/BandejaMulticolor_1.png",
         "images":[
@@ -33,7 +33,7 @@
         "title":"Broches con imán",
         "description":"",
         "price":400,
-        "stock":9,
+        "stock":true,
         "category":"Otros",
         "thumbnail": "images/BrochesConIman_1.jpg",
         "images":[
@@ -46,7 +46,7 @@
         "title":"Caja de Té",
         "description":"",
         "price":1900,
-        "stock":2,
+        "stock":true,
         "category":"Otros",
         "thumbnail": "images/CajaDeTe_1.jpg",
         "images":[
@@ -58,7 +58,7 @@
         "title":"Cajón Multicolor",
         "description":"",
         "price":3100,
-        "stock":1,
+        "stock":true,
         "category":"Cajones",
         "thumbnail": "images/CajonMulticolor_1.jpg",
         "images":[
@@ -70,7 +70,7 @@
         "title":"Cajón Verde",
         "description":"",
         "price":3100,
-        "stock":3,
+        "stock":true,
         "category":"Cajones",
         "thumbnail": "images/CajonVerde_1.jpg",
         "images":[
@@ -83,7 +83,7 @@
         "title":"Mantel Individual",
         "description":"",
         "price":1800,
-        "stock":12,
+        "stock":true,
         "category":"Otros",
         "thumbnail": "images/MantelitoIndividual_1.png",
         "images":[
@@ -96,7 +96,7 @@
         "title":"Macetas",
         "description":"",
         "price":1250,
-        "stock":5,
+        "stock":true,
         "category":"Otros",
         "thumbnail": "images/MiniMacetitas_1.jpg",
         "images":[
@@ -110,7 +110,7 @@
         "title":"Cajonera con ruedas",
         "description":"",
         "price":10250,
-        "stock":1,
+        "stock":true,
         "category":"Muebles",
         "thumbnail": "images/MuebleConRuedas_1.jpg",
         "images":[
@@ -123,7 +123,7 @@
         "title":"Reloj de Campo",
         "description":"",
         "price":5700,
-        "stock":0,
+        "stock":false,
         "category":"Otros",
         "thumbnail": "images/RelojCampo_1.jpg",
         "images":[
@@ -135,7 +135,7 @@
         "title":"Cuadro Destapador",
         "description":"",
         "price":2500,
-        "stock":0,
+        "stock":false,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoDestapador_modelo1_1.jpg",
         "images":[
@@ -147,7 +147,7 @@
         "title":"Cuadro Destapador",
         "description":"",
         "price":2500,
-        "stock":1,
+        "stock":true,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoDestapador_modelo2_1.jpg",
         "images":[
@@ -159,7 +159,7 @@
         "title":"Cuadro Rock & Love",
         "description":"",
         "price":2500,
-        "stock":3,
+        "stock":true,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoRockLove_1.jpg",
         "images":[
@@ -172,7 +172,7 @@
         "title":"Cuadro Viva la Vida",
         "description":"",
         "price":2500,
-        "stock":0,
+        "stock":false,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoVivaVida_1.jpg",
         "images":[
@@ -184,7 +184,7 @@
         "title":"Cuadro Cucina",
         "description":"",
         "price":2500,
-        "stock":1,
+        "stock":true,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoCucina_1.jpg",
         "images":[
@@ -196,7 +196,7 @@
         "title":"Cuadro Namaste",
         "description":"",
         "price":2500,
-        "stock":2,
+        "stock":true,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoNamaste_1.jpg",
         "images":[
@@ -208,7 +208,7 @@
         "title":"Cuadro Rie",
         "description":"",
         "price":2500,
-        "stock":2,
+        "stock":true,
         "category":"Cuadros",
         "thumbnail": "images/CuadritoRie_1.jpg",
         "images":[
